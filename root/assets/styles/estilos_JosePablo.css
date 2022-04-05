@@ -1,22 +1,19 @@
-/*INICIA ESTILOS DE BODY*/
+/* Clases generales */
+
+/*ACABA ESTILOS DE BODY*/
 body{
     background-color: black;
 }
+
 /*ACABA ESTILOS DE BODY*/
 
 /*INICIA ESTILOS DE ARTICLE*/
 article{
     background-color: rgb(44, 43, 43);
-    padding: 1.5rem;
+    padding: 1.5rem; 
     color: rgb(255, 255, 255);
 }
 /*ACABA ESTILOS DE ARTICLE*/
-
-/*INICIA ESTILOS DE CLASE: .RESULTADO*/
-.resaltado {
-    color: yellow;
-}
-/*ACABA ESTILOS DE CLASE: .RESULTADO*/
 
 /*INICIA ESTILOS DE ID: #TITULO_DEL_BLOG*/
 #titulo_del_blog{
@@ -25,11 +22,45 @@ article{
 }
 /*ACABA ESTILOS DE ID: #TITULO_DEL_BLOG*/
 
+
+
+/*Terminan Clases generales*/
+
+
+/* Barra de navegación*/
+
+
+/*INICIA ESTILOS DE CLASE: .RESULTADO*/
+.resaltado {
+    color: yellow;
+}
+/*ACABA ESTILOS DE CLASE: .RESULTADO*/
+
+/*INICIA ESTILOS DE LISTA ORDENADA DENTRO DE NAV*/
+nav>ul>li{
+    list-style: none;
+}
+/*ACABA ESTILOS DE LISTA ORDENADA DENTRO DE NAV*/
+
+/*Inicia eliminar subrayado*/
+nav>ul>li>a{
+    text-decoration: none;
+}
+/*Termina eliminar subrayado*/
+
 /*INICIA ESTILOS DE ID: #FOOTER_BLOG*/
 #footer_blog{
     margin: 2rem
 }
 /*ACABA ESTILOS DE ID: #FOOTER_BLOG*/
+
+/*Inicia estilos de ilustración*/
+.ilustracion{
+    border: 4px;
+    color: white;
+}
+/*Acaba estilos de ilustración*/
+
 
 /*INICIA ESTILOS DE CLASE: FIGCAPTION_ILUSTRACION*/
 .figcaption_ilustracion{
@@ -40,15 +71,3 @@ article{
     font-style: italic;
 }
 /*ACABA ESTILOS DE ID: #FIGCAPTION_ILUSTRACION*/
-
-
-/*INICIA ESTILOS DE LISTA ORDENADA DENTRO DE NAV*/
-nav>ul>li{
-    list-style: none;
-}
-/*ACABA ESTILOS DE LISTA ORDENADA DENTRO DE NAV*/
-/*Inicia eliminar subrayado*/
-nav>ul>li>a{
-    text-decoration: none;
-}
-/*Termina eliminar subrayado*/

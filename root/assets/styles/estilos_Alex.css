@@ -54,6 +54,14 @@ nav>ul>li>a{
 }
 /*ACABA ESTILOS DE ID: #FOOTER_BLOG*/
 
+/*Inicia estilos de ilustración*/
+.ilustracion{
+    border: 4px;
+    color: white;
+}
+/*Acaba estilos de ilustración*/
+
+
 /*INICIA ESTILOS DE CLASE: FIGCAPTION_ILUSTRACION*/
 .figcaption_ilustracion{
     margin-top: 1rem;
