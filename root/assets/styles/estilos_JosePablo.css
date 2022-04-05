@@ -47,3 +47,8 @@ nav>ul>li{
     list-style: none;
 }
 /*ACABA ESTILOS DE LISTA ORDENADA DENTRO DE NAV*/
+/*Inicia eliminar subrayado*/
+nav>ul>li>a{
+    text-decoration: none;
+}
+/*Termina eliminar subrayado*/

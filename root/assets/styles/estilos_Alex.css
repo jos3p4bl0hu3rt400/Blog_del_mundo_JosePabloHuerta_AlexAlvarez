@@ -1,5 +1,6 @@
-/*INICIA ESTILOS DE BODY*/
+/* Clases generales */
 
+/*ACABA ESTILOS DE BODY*/
 body{
     background-color: black;
 }
@@ -14,18 +15,38 @@ article{
 }
 /*ACABA ESTILOS DE ARTICLE*/
 
-/*INICIA ESTILOS DE CLASE: .RESULTADO*/
-.resaltado {
-    color: yellow;
-}
-/*ACABA ESTILOS DE CLASE: .RESULTADO*/
-
 /*INICIA ESTILOS DE ID: #TITULO_DEL_BLOG*/
 #titulo_del_blog{
     text-align: center;
     font-size: 3rem;
 }
 /*ACABA ESTILOS DE ID: #TITULO_DEL_BLOG*/
+
+
+
+/*Terminan Clases generales*/
+
+
+/* Barra de navegación*/
+
+
+/*INICIA ESTILOS DE CLASE: .RESULTADO*/
+.resaltado {
+    color: yellow;
+}
+/*ACABA ESTILOS DE CLASE: .RESULTADO*/
+
+/*INICIA ESTILOS DE LISTA ORDENADA DENTRO DE NAV*/
+nav>ul>li{
+    list-style: none;
+}
+/*ACABA ESTILOS DE LISTA ORDENADA DENTRO DE NAV*/
+
+/*Inicia eliminar subrayado*/
+nav>ul>li>a{
+    text-decoration: none;
+}
+/*Termina eliminar subrayado*/
 
 /*INICIA ESTILOS DE ID: #FOOTER_BLOG*/
 #footer_blog{
@@ -43,8 +64,4 @@ article{
 }
 /*ACABA ESTILOS DE ID: #FIGCAPTION_ILUSTRACION*/
 
-/*INICIA ESTILOS DE LISTA ORDENADA DENTRO DE NAV*/
-nav>ul>li{
-    list-style: none;
-}
-/*ACABA ESTILOS DE LISTA ORDENADA DENTRO DE NAV*/
+
